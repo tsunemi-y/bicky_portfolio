@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #fff;
+}
+
+body,
+.MuiTypography-root {
+  font-family: 'ten-mincho', serif !important;
+}
+
+/* sticky footerを実現するための対応 */
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.react-calendar__navigation__label {
+  pointer-events: none;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #dc3545 !important;
+}
+
+.saturday {
+  color: #3d90dd !important;
+}
+
+.holiday {
+  color: #dc3545 !important;
+}
+
+.danger_text {
+  color: #dc3545;
+}
+
+.primary_bc {
+  background-color: #fdffe5;
+}
+
+.secondary_bc {
+  background-color: #72cc82;
+}
+
+.secondary_btn {
+  background-color: #72cc82;
+}
+
+.secondary_btn:hover {
+  background-color: #83dd93;
+}
+
+.danger_btn {
+  background-color: #f44336;
+}
+
+.danger_btn:hover {
+  background-color: #d32f2f;
+}

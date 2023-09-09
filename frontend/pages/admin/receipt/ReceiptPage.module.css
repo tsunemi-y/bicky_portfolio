@@ -1,0 +1,56 @@
+.reactCalendar {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper {
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 1rem 2rem;
+}
+
+.button {
+  background-color: #72cc82;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #57a862;
+}
+
+.dateIndicators {
+  display: flex;
+  flex-direction: column;
+}
+
+.availableBar,
+.reservationBar {
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.availableBar {
+  background-color: #f44336;
+}
+
+.availableBar:hover {
+  background-color: #d32f2f;
+}
+
+.reservationBar {
+  background-color: #4caf50;
+}
+
+.reservationBar:hover {
+  background-color: #388e3c;
+}

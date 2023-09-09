@@ -1,0 +1,11 @@
+.mainTitle {
+  background-color: #72cc82;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+}
